@@ -1,7 +1,9 @@
 import requests
 import streamlit as st
 
-st.set_page_config(page_title="Wealth Estimation", layout="centered")
+st.set_page_config(
+    page_title="Wealth Estimation", layout="centered", background_color="white"
+)
 
 st.title("AI Household Wealth Estimation")
 
